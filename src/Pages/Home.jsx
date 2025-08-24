@@ -12,10 +12,11 @@ const Home = () => {
      
      <section
         id="home"
-        className="grid place-items-center w-screen h-screen text-center bg-black/70 bg-blend-overlay bg-cover bg-center pt-[125px]"
+        className="grid place-items-center w-screen h-screen text-center bg-black/70 bg-blend bg-cover bg-center pt-[125px]"
+        
         style={{
           backgroundImage:
-            "url('https://media.istockphoto.com/id/180722392/photo/prayer-flags-flying-on-the-wind-in-himalayas.jpg?s=612x612&w=0&k=20&c=dTxlZpQmyUZYTibI7_q7kAJ_kOzxSKotsdSfE7s9ALM=')"
+            "url('https://trekroute.com/wp-content/uploads/2015/01/Prayer-Flags-in-nepal-1024x683.jpg')"
         }}
       >
         <div className="max-w-4xl mx-auto px-4">
