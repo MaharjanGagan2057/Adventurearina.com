@@ -62,7 +62,7 @@ const Footer = () => {
                   {/* ...social icons... */}
                 </div>
                 <p className="text-sm text-body-color dark:text-dark-6">
-                  &copy; 2025 TailGrids
+                  &copy; 2025 Adventurearina
                 </p>
               </div>
             </div>
