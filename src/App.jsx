@@ -1,0 +1,37 @@
+
+import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Contact from './Pages/Contact'
+import Packages from './Pages/Packages'
+import { Teams } from './Pages/Teams'
+import Destinations from './Pages/Destinations/Destinations'
+import Nepal from './Pages/Destinations/Nepal/Nepal'
+import Bhutan from './Pages/Destinations/Bhutan/Bhutan'
+import Tibet from './Pages/Destinations/Tibet/Tibet'
+import Bookings from './components/Bookings'
+function App() {
+  
+  return (
+    <>
+      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/packages" element={<Packages />} />
+          <Route path="/teams" element={<Teams />} />
+          <Route path="/Destinations" element={<Destinations />} />
+          <Route path="/Destinations/Nepal" element={<Nepal />} />
+          <Route path="/Destinations/Bhutan" element={<Bhutan />} />
+         <Route path="/Destinations/Tibet" element={<Tibet />} />
+          <Route path="/bookings" element={<Bookings />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
+}
+
+export default App
