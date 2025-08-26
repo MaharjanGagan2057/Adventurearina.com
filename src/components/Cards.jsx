@@ -1,28 +1,46 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Cards = () => {
+const Cards = (props) => {
   return (
-    <div className=' inline-flex flex-wrap  items-center pl-16 pt-5 m-auto justify-center'>
- 
-<div className="max-w-sm  bg-white border border-gray-200 rounded-3xl shadow-sm dark:bg-gray-800 dark:border-gray-700   m-5 ">
-    <a href="#">
-        <img className="rounded-t-lg" src="https://www.alpinesherpaguide.com/upload/package/24072023135652EBC.webp" alt="" />
-    </a>
-    <div className="p-5">
+    < >
+    <div className=" inline-block justify-items-center m-3 mt-10 mb-20"><br />
+      <div className="w-80 h-[430px] bg-white border border-gray-200 rounded-3xl shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4 ">
+        {/* passing img using props */}
         <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Everest Summit</h5>
+          <img
+            className="rounded-t-3xl w-80 h-60 object-cover"
+            src={props.image}
+            alt=""
+          />
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center  text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Book Now
-             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-        </a>
+        <div className="p-5  ">
+          {/* passing title using props */}
+          <a href="#">
+            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {props.title}
+            </h5>
+          </a>
+          {/* passing description using props */}
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-sm line-clamp-3">
+            {props.description}
+          </p>
+            {/* Book Now button */}
+           <Link to="/bookings"> <button  className="items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+           Book Now </button>
+            </Link>
+         
+        </div>
+      </div>
     </div>
-</div>
 
-</div>
+
+
+
+
+
+
+    </>
   )
 }
 

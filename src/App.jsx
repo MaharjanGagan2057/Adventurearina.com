@@ -26,7 +26,7 @@ function App() {
           <Route path="/Destinations" element={<Destinations />} />
           <Route path="/Destinations/Nepal" element={<Nepal />} />
           <Route path="/Destinations/Bhutan" element={<Bhutan />} />
-         <Route path="/Destinations/Tibet" element={<Tibet />} />
+          <Route path="/Destinations/Tibet" element={<Tibet />} />
           <Route path="/bookings" element={<Bookings />} />
         </Routes>
       </BrowserRouter>

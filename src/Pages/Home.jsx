@@ -12,7 +12,7 @@ const Home = () => {
      
      <section
         id="home"
-        className="grid place-items-center w-screen h-screen text-center bg-black/70 bg-blend bg-cover bg-center pt-[125px]"
+        className="grid place-items-center w-screen h-screen text-center bg-black/70 bg-blend-overlay bg-cover bg-center pt-[125px]"
         
         style={{
           backgroundImage:
@@ -44,7 +44,26 @@ const Home = () => {
 
         </div>
       </section>
-      <Packages/>
+      <Packages
+      title='Lhasa Tour'
+      image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
+      price='499'/>
+
+      <Packages
+      title='Bhutan Tour'
+      image='https://tse4.mm.bing.net/th/id/OIP.W5xvAZUdZC8mrx6msPDzIQHaEK?r=0&w=700&h=393&rs=1&pid=ImgDetMain&o=7&rm=3'
+      price='788'
+      />
+         <Packages
+      title='China Tour'
+      image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
+      price='250'
+      />
+        <Packages
+      title='China Tour'
+      image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
+      price='250'
+      />
 
 <Contact/>
     
