@@ -1,7 +1,10 @@
 import React from 'react'
 import Navbar from '../../../components/Navbar'
 import Cards from '../../../components/Cards'
+<<<<<<< HEAD
 import Button from '../../../components/Button'
+=======
+>>>>>>> c05e34ade57087f5936b8629d8fc49c287696a50
 import Footer from '../../../components/Footer'
 
 
@@ -39,10 +42,15 @@ const Nepal = () => {
         className="inline-block px-4 py-2  text-white rounded transition mt-8"
       >
        <u> Download Itenery</u>
+<<<<<<< HEAD
       <Button />
       </a> */}
 
       <Footer />
+=======
+      </a>
+      <Footer/>
+>>>>>>> c05e34ade57087f5936b8629d8fc49c287696a50
     </>
   )
 }
