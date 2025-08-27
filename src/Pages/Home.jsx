@@ -37,7 +37,7 @@ const Home = () => {
               Learn more
             </button>
             <Link to= "/bookings">
-            <button className="bg-white text-green-500 px-3 py-3 rounded-md hover:bg-gray-200 transition">
+            <button className="bg-purple-800 text-green-500 px-3 py-3 rounded-md hover:bg-gray-200 transition">
               Book now
             </button>
             </Link>
