@@ -45,8 +45,13 @@ const Home = () => {
 
         </div>
         </section>
+<Packages
+title='Nepal Tour'
+image='https://tse2.mm.bing.net/th/id/OIP.d9fwHaVLReKpprhz7cqEfQHaEK?pid=Api&P=0&h=220'
+price='250'
+/>
       <Packages
-      title='Lhasa Tour'
+      title='Tibet Tour'
       image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
       price='499'/>
 
@@ -56,13 +61,8 @@ const Home = () => {
       price='788'
       />
          <Packages
-      title='China Tour'
-      image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
-      price='250'
-      />
-        <Packages
-      title='China Tour'
-      image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
+      title='India Tour'
+      image='https://tse1.mm.bing.net/th/id/OIP.1xzhNthh2cGSmdZrqGy7PAHaE8?pid=Api&P=0&h=220'
       price='250'
       />
 
