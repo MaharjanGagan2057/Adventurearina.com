@@ -6,7 +6,7 @@ import Footer from '../../../components/Footer'
 const Tibet = () => {
   return (
     <>
-    <h2 className='mt-25 text-6 xl text-white-600 text-center'>TIBET</h2>
+    <h2 className='mt-25 text-6xl text-white-600 text-center'>TIBET</h2>
     <Navbar/>
   <Cards 
       title='Lhasa Tour'

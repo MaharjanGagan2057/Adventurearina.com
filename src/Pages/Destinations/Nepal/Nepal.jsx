@@ -1,10 +1,7 @@
 import React from 'react'
 import Navbar from '../../../components/Navbar'
 import Cards from '../../../components/Cards'
-<<<<<<< HEAD
 import Button from '../../../components/Button'
-=======
->>>>>>> c05e34ade57087f5936b8629d8fc49c287696a50
 import Footer from '../../../components/Footer'
 
 
@@ -30,8 +27,8 @@ const Nepal = () => {
       description='Annapurna, a massif in the Himalayas in north-central Nepal, . The region is also home to the Annapurna Sanctuary, a high-altitude basin surrounded by some of the highest peaks in the world, including Annapurna I, which stands at 8,091 meters (26,545 feet).'
       />
      <Cards 
-      title='Annapurna Summit'
-      image='https://tse1.mm.bing.net/th/id/OIP.hQ4l5MlliI7Fe_XdDUGRyQHaE8?r=0&pid=ImgDet&w=184&h=122&c=7&dpr=1.3&o=7&rm=3'
+      title=' Patan Durbasquare Tour '
+      image='https://peregrinetreks.com/wp-content/uploads/2022/12/City-of-Temple-Patan-Durbar-Square.webp'
       description='Annapurna, a massif in the Himalayas in north-central Nepal, . The region is also home to the Annapurna Sanctuary, a high-altitude basin surrounded by some of the highest peaks in the world, including Annapurna I, which stands at 8,091 meters (26,545 feet).'
       />
 
@@ -42,15 +39,10 @@ const Nepal = () => {
         className="inline-block px-4 py-2  text-white rounded transition mt-8"
       >
        <u> Download Itenery</u>
-<<<<<<< HEAD
       <Button />
       </a> */}
 
       <Footer />
-=======
-      </a>
-      <Footer/>
->>>>>>> c05e34ade57087f5936b8629d8fc49c287696a50
     </>
   )
 }

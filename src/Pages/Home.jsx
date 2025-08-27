@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Contact from './Contact'
 import Packages from './Packages'
 import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 
 const Home = () => {
 
@@ -32,7 +33,7 @@ const Home = () => {
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-3">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition">
+            <button className="bg-blue-600 text-black px-6 py-3 rounded-md hover:bg-blue-700 transition">
               Learn more
             </button>
             <Link to= "/bookings">
@@ -43,7 +44,7 @@ const Home = () => {
           </div>
 
         </div>
-      </section>
+        </section>
       <Packages
       title='Lhasa Tour'
       image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
@@ -65,9 +66,9 @@ const Home = () => {
       price='250'
       />
 
-<Contact/>
-    
 
+    
+<Footer/>
     </>
   )
 }

@@ -5,6 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 const Navbar = () => {
   const navigate = useNavigate()
 
+  //  select dropdown function 
   const handleDestinationChange = (e) => {
     const value = e.target.value
     if (value) {
@@ -24,7 +25,7 @@ const Navbar = () => {
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
-            <span className="sr-only">Search</span>
+            <span className="sr-only j">Search</span>
           </button>
           <div className="relative hidden md:block">
             <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -74,7 +75,7 @@ const Navbar = () => {
 
               <select
                 onChange={handleDestinationChange}
-                className="block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-700"
+                className="block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500  text-black  hover:visible "
                 defaultValue=""
                 >
                 <option value="" disabled>Select a destination</option>
