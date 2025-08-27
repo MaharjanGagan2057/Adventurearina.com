@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-white border-gray-200 dark:bg-gray-900 mb-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-full p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logo2} className="h-8 rounded-2xl" alt="Adventure Arina Logo" />
+          <img src={logo2} className="h-20 rounded-2xl" alt="Adventure Arina Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Adventure Arina</span>
         </Link>
         <div className="flex md:order-2">
