@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
     <Navbar /><br />    
-<section className="bg-white dark:bg-slate-800 mt-0" id="contact">
+<section className="bg-white dark:bg-slate-800 mt-5" id="contact">
     <div className="mx-auto max-w-full px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="mb-4">
             <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
@@ -87,7 +87,8 @@ const Contact = () => {
                 </div>
                 <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
                     <h2 className="mb-4 text-2xl font-bold dark:text-white">Ready to Get Started?</h2>
-                    <form id="contactForm">
+                    {/* usebasin form contactfrom submission */}
+                    <form action='' method='post' id="contactForm">
                         <div className="mb-6">
                             <div className="mx-0 mb-1 sm:mb-4">
                                 <div className="mx-0 mb-1 sm:mb-4">
@@ -102,7 +103,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="text-center">
-                            <button type="submit" className="w-full bg-blue-800  text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                            <button type="submit" className="w-full bg-blue-800  text-white px-6 py-3 font-xl rounded-md sm:mb-0 ">Send Message</button>
                         </div>
                     </form>
                 </div>
