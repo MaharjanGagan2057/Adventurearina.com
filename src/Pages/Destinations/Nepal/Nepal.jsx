@@ -3,12 +3,14 @@ import Navbar from '../../../components/Navbar'
 import Cards from '../../../components/Cards'
 import Button from '../../../components/Button'
 import Footer from '../../../components/Footer'
+import Livechattidio from '../../../components/Livechattidio'
 
 
 const Nepal = () => {
   return (
     <>
       <Navbar />
+      <Livechattidio/>
 
       <h2 className="mt-25 text-6xl text-center">NEPAL</h2>
       <Cards 

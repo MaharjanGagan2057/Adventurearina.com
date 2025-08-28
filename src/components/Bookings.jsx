@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
 
+
 const Bookings = () => {
   return (
     
     <>
     <Navbar/>
+
+         
     {/* Booking Form */}
     <div className="max-w-xl mx-auto p-6 bg-white rounded-lg shadow-md ml-150 mt-25  text-black ">
    <h3 className="text-2xl font-medium text-black mb-5">Book Your Appointment</h3>

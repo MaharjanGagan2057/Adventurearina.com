@@ -3,11 +3,13 @@ import Navbar from '../../../components/Navbar'
 import Cards from '../../../components/Cards'
 import Footer from '../../../components/Footer'
 
+
 const Tibet = () => {
   return (
     <>
-    <h2 className='mt-25 text-6xl text-white-600 text-center'>TIBET</h2>
     <Navbar/>
+   
+    <h2 className='mt-25 text-6xl text-white-600 text-center'>TIBET</h2>
   <Cards 
       title='Lhasa Tour'
       image='https://media.tacdn.com/media/attractions-content--1x-1/0f/dd/87/91.jpg'

@@ -4,13 +4,16 @@ import Contact from './Contact'
 import Packages from './Packages'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import Livechattidio from '../components/Livechattidio'
 
 const Home = () => {
 
   return (
     <>
+  
       <Navbar />
      
+     <Livechattidio/>
      <section
         id="home"
         className="grid place-items-center w-screen h-screen text-center bg-black/70 bg-blend-overlay bg-cover bg-center pt-[125px]"
