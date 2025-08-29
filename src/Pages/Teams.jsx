@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export const Teams = () => {
   return (
@@ -152,6 +153,8 @@ export const Teams = () => {
       </div>  
   </div>
 </section>
+
+<Footer/>
     </>
   )
 }

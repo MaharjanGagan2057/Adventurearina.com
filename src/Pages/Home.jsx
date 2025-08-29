@@ -12,8 +12,11 @@ const Home = () => {
     <>
   
       <Navbar />
-     
+     {/* tidio live chat */}
      <Livechattidio/>
+
+
+
      <section
         id="home"
         className="grid place-items-center w-screen h-screen text-center bg-black/70 bg-blend-overlay bg-cover bg-center pt-[125px]"

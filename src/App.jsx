@@ -11,6 +11,7 @@ import Nepal from './Pages/Destinations/Nepal/Nepal'
 import Bhutan from './Pages/Destinations/Bhutan/Bhutan'
 import Tibet from './Pages/Destinations/Tibet/Tibet'
 import Bookings from './components/Bookings'
+import Whyus from './Pages/Whyus'
 function App() {
   
   return (
@@ -28,10 +29,11 @@ function App() {
           <Route path="/Destinations/Bhutan" element={<Bhutan />} />
           <Route path="/Destinations/Tibet" element={<Tibet />} />
           <Route path="/bookings" element={<Bookings />} />
+          <Route path="/whyus" element={<Whyus/>}/>
         </Routes>
       </BrowserRouter>
     </>
   )
 }
 
-export default App
+export default App  

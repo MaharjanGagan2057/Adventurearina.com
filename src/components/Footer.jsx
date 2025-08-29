@@ -43,7 +43,7 @@ const Footer = () => {
               <NavLink link="/#" label="User Strategy" />
             </LinkGroup>
             <LinkGroup header="Company">
-              <NavLink link="/#" label="About TailGrids" />
+              <NavLink link="/#" label="About Adventure Arina" />
               <NavLink link="/#" label="Contact & Support" />
               <NavLink link="/#" label="Success History" />
               <NavLink link="/#" label="Setting & Privacy" />
@@ -51,7 +51,7 @@ const Footer = () => {
             <LinkGroup header="Quick Links">
               <NavLink link="/#" label="Premium Support" />
               <NavLink link="/#" label="Our Services" />
-              <NavLink link="/#" label="Know Our Team" />
+              <NavLink link="/Teams" label="Know Our Team" />
               <NavLink link="/#" label="Download App" />
             </LinkGroup>
 
