@@ -1,6 +1,7 @@
 import React from 'react'
-import logo from '../assets/logo.jpg'
+import logo3 from '../assets/logo3.jpg'
 import logo2 from '../assets/logo2.png'
+
 import { Link, useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
@@ -18,8 +19,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50  bg-white border-gray-200 dark:bg-gray-900 mb-0 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-full p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logo2} className="h-20 rounded-2xl" alt="Adventure Arina Logo" />
-          <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white text-purple-800">Adventure Arina</span>
+          <img src={logo3} className="h-20 rounded-2xl" alt="Adventure Arina Logo" />
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-purple-800">Adventure Arina</span>
         </Link>
         <div className="flex md:order-2">
           <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
