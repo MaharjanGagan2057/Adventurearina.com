@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Button from './Button'
 
 const Cards = (props) => {
   return (
@@ -26,8 +27,8 @@ const Cards = (props) => {
             {props.description}
           </p>
             {/* Book Now button */}
-           <Link to="/bookings"> <button  className="items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-           Book Now </button>
+           <Link to="/bookings"> 
+            <Button/>
             </Link>
          
         </div>
@@ -39,9 +40,10 @@ const Cards = (props) => {
 
 
 
-
     </>
   )
 }
 
 export default Cards
+//  className="items-center px-4 py-2 text-sm font-medium text-center text-white bg-purple-600  rounded-lg hover:bg-purple-700  focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> <button >
+//            Book Now </button>

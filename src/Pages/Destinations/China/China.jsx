@@ -4,12 +4,12 @@ import Cards from '../../../components/Cards'
 import Footer from '../../../components/Footer'
 
 
-const Tibet = () => {
+const China = () => {
   return (
     <>
     <Navbar/>
    
-    <h2 className='mt-25 text-6xl text-white-600 text-center'>TIBET</h2>
+    <h2 className='mt-26 text-6xl text-white-600 text-center'>CHINA</h2>
   <Cards 
       title='Lhasa Tour'
       image='https://media.tacdn.com/media/attractions-content--1x-1/0f/dd/87/91.jpg'
@@ -36,4 +36,4 @@ const Tibet = () => {
   )
 }
 
-export default Tibet
+export default China

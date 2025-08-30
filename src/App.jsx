@@ -9,7 +9,8 @@ import { Teams } from './Pages/Teams'
 import Destinations from './Pages/Destinations/Destinations'
 import Nepal from './Pages/Destinations/Nepal/Nepal'
 import Bhutan from './Pages/Destinations/Bhutan/Bhutan'
-import Tibet from './Pages/Destinations/Tibet/Tibet'
+import China from './Pages/Destinations/China/China'
+import India from './Pages/Destinations/India/India'
 import Bookings from './components/Bookings'
 import Whyus from './Pages/Whyus'
 function App() {
@@ -27,7 +28,8 @@ function App() {
           <Route path="/Destinations" element={<Destinations />} />
           <Route path="/Destinations/Nepal" element={<Nepal />} />
           <Route path="/Destinations/Bhutan" element={<Bhutan />} />
-          <Route path="/Destinations/Tibet" element={<Tibet />} />
+          <Route path="/Destinations/China" element={<China />} />
+          <Route path="/Destinations/India" element={<India />} />
           <Route path="/bookings" element={<Bookings />} />
           <Route path="/whyus" element={<Whyus/>}/>
         </Routes>

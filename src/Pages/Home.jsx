@@ -5,6 +5,7 @@ import Packages from './Packages'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import Livechattidio from '../components/Livechattidio'
+import Packagecard from '../components/Packagecard'
 
 const Home = () => {
 
@@ -51,26 +52,37 @@ const Home = () => {
 
         </div>
         </section>
-<Packages
+        {/* linking nepal package to nepal page */}
+        <Link to='/Destinations/Nepal'>
+        {/* passing prorps to packagecard */}
+<Packagecard
 title='Nepal Tour'
 image='https://tse2.mm.bing.net/th/id/OIP.d9fwHaVLReKpprhz7cqEfQHaEK?pid=Api&P=0&h=220'
 price='250'
 />
-      <Packages
+</Link>
+
+<Link to='/Destinations/China'>
+      <Packagecard
       title='Tibet Tour'
       image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
       price='499'/>
+      </Link>
 
-      <Packages
+<Link to='/Destinations/Bhutan'>
+      <Packagecard
       title='Bhutan Tour'
       image='https://tse4.mm.bing.net/th/id/OIP.W5xvAZUdZC8mrx6msPDzIQHaEK?r=0&w=700&h=393&rs=1&pid=ImgDetMain&o=7&rm=3'
-      price='788'
-      />
-         <Packages
+      price='788'/>
+</Link>
+
+<Link to='/Destinations/India'>
+         <Packagecard
       title='India Tour'
       image='https://tse1.mm.bing.net/th/id/OIP.1xzhNthh2cGSmdZrqGy7PAHaE8?pid=Api&P=0&h=220'
       price='250'
       />
+      </Link>
 
 
     

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.jpg";
+import logo3 from "../assets/logo3.jpg";
 
 
 const Footer = () => {
@@ -13,25 +13,20 @@ const Footer = () => {
               <div className="mb-5 w-full">
                 <a href="/#" className="mb-3 inline-block max-w-[120px]">
                   <img
-                    src={logo}
+                    src={logo3}
                     alt="logo"
                     className="max-w-full dark:hidden"
                   />
-                  <img
-                    src={logo}
-                    alt="logo"
-                    className="max-w-full hidden dark:block rounded-3xl"
-                  />
+                 
                 </a>
                 <p className="mb-3 text-sm text-body-color dark:text-dark-6">
-                  Sed ut perspiciatis undmnis is iste natus error sit amet
-                  voluptatem totam rem aperiam.
+                Your Dream Our Passion.
                 </p>
                 <p className="flex items-center text-xs font-medium text-dark dark:text-white">
                   <span className="mr-2 text-primary">
                     {/* ...SVG... */}
                   </span>
-                  <span>+012 (345) 678 99</span>
+                  <span>+1 (650) 629-5111</span>
                 </p>
               </div>
             </div>
