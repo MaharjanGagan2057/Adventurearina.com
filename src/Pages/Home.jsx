@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import Livechattidio from '../components/Livechattidio'
 import Packagecard from '../components/Packagecard'
+import Button from '../components/Button'
 
 const Home = () => {
 
@@ -43,10 +44,8 @@ const Home = () => {
             <button className="bg-blue-600 text-black px-6 py-3 rounded-md hover:bg-blue-700 transition">
               Learn more
             </button>
-            <Link to= "/bookings">
-            <button className="bg-purple-800 px-3 py-3 rounded-md hover:bg-gray-200 transition">
-            Book now
-            </button>
+             <Link to="/bookings"> 
+            <Button/>
             </Link>
           </div>
 
