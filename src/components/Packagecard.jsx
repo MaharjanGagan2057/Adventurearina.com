@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Button from './Button'
 const Packagecard = (props) => {
   return (
     <>
@@ -43,8 +44,11 @@ const Packagecard = (props) => {
         <div className="flex items-center justify-between">
           {/* passing price on props */}
             <span className="text-2xl font-bold text-gray-900 dark:text-white">${props.price}</span>
-            {/* booking btton */}
-            <Link to='/Bookings' className="text-white bg-purple-800 hover:bg-purple-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Book Now</Link>
+
+           {/* Book Now button */}
+           <Link to="/bookings"> 
+            <Button/>
+            </Link>
         </div>
     </div>
 </div>

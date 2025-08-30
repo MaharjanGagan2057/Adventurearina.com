@@ -44,9 +44,12 @@ const Home = () => {
             <button className="bg-blue-600 text-black px-6 py-3 rounded-md hover:bg-blue-700 transition">
               Learn more
             </button>
-             <Link to="/bookings"> 
+
+              {/* Book Now button */}
+           <Link to="/bookings"> 
             <Button/>
             </Link>
+
           </div>
 
         </div>
