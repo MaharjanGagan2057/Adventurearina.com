@@ -21,7 +21,7 @@ const Home = () => {
 
      <section
         id="home"
-        className="grid place-items-center w-screen h-screen text-center bg-black/70 bg-blend-overlay bg-cover bg-center pt-[125px]"
+        className="grid place-items-center w-screen h-150 text-center bg-black/20 bg-blend-overlay bg-cover bg-center pt-[125px]"
         
         style={{
           backgroundImage:
@@ -35,9 +35,7 @@ const Home = () => {
           </h2>
 
           <p className="text-white text-base md:text-lg mb-10">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
-            voluptatibus habitant?
-            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+        “Adventure Arina is your trusted travel and trekking partner, offering unforgettable journeys across Nepal and beyond. From breathtaking Himalayan treks to cultural tours and thrilling adventures, we specialize in crafting safe, personalized, and memorable experiences for every traveler.”
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-3">
@@ -54,6 +52,7 @@ const Home = () => {
 
         </div>
         </section>
+
         {/* linking nepal package to nepal page */}
         <Link to='/Destinations/Nepal'>
         {/* passing prorps to packagecard */}
