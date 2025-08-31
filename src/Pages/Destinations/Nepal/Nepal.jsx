@@ -4,6 +4,7 @@ import Cards from '../../../components/Cards'
 import Button from '../../../components/Button'
 import Footer from '../../../components/Footer'
 import Livechattidio from '../../../components/Livechattidio'
+import Description from '../../../components/Description'
 
 
 
@@ -15,9 +16,11 @@ const Nepal = () => {
       <Livechattidio/>
        
 
-      <h2 className="mt-26 text-6xl text-center">NEPAL</h2>
-   
+      <h2 className="mt-26 mb-5 text-6xl text-center">NEPAL</h2>
 
+   <Description/>
+
+{/* passing data using props in cards.jsx */}
       <Cards 
        title=' City Tour '
        image='https://www.authenticindiatours.com/app/uploads/2022/06/Ancient-city-in-Kathmandu-Valley-Patan-Nepal.jpg'

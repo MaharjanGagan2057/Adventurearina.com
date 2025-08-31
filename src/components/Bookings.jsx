@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 
 const Bookings = () => {
@@ -10,7 +11,7 @@ const Bookings = () => {
 
          
     {/* Booking Form */}
-    <div className="max-w-xl mx-auto p-6 bg-white rounded-lg shadow-md ml-150 mt-25  text-black ">
+    <div className="max-w-xl p-6 bg-gray-50 rounded-lg shadow-md my-25 mx-25  text-black justify-center items-center">
    <h3 className="text-2xl font-medium text-black mb-5">Book Your Appointment</h3>
    <form action="https://usebasin.com/f/f6ad4d754f60" method="POST" className="space-y-4">
        <div>
@@ -53,8 +54,8 @@ const Bookings = () => {
        </div>
    </form>
 </div>
-    
-   
+      
+   <Footer/>
     </>
   )
 }

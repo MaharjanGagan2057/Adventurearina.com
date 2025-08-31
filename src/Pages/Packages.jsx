@@ -10,6 +10,7 @@ const Packages = (props) => {
   return (
     <>
     <Navbar/>
+    <h1 className='mt-25 text-3xl text-center'>PACKAGES</h1>
 
 <Link to='/Destinations/Nepal'>
     <Packagecard
