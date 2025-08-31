@@ -16,9 +16,22 @@ const Nepal = () => {
       <Livechattidio/>
        
 
-      <h2 className="mt-26 mb-5 text-6xl text-center">NEPAL</h2>
-
-   <Description/>
+      <h2 className="mt-26 mb-5 text-6xl text-center ">NEPAL</h2>
+{/* passing img and discription using props in nepal page */}
+   <Description
+   image1='https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/03/28122812/EBC-trek-feature-image-1600x900.jpg'
+   image2='https://superdesk-pro-c.s3.amazonaws.com/sd-nepalitimes/20221108141116/636a57119c7e80680e0547bejpeg.jpg'
+   image3='https://res.cloudinary.com/rehash-studio/image/upload/fl_progressive:semi,f_jpg,q_60,c_fill,g_auto:subject,ar_4:3/if_w_gt_1200,w_1200/v1738231942/upload/3d9e894f-2aae-4883-9f38-d4c48821dff4.jpg'
+   image4='https://leisure.vesnatours.com/wp-content/uploads/2014/10/nepal.jpg'
+   image5='https://superdesk-pro-c.s3.amazonaws.com/sd-nepalitimes/20221110141132/636cfde49c7e80680e0a0c0djpeg.jpg'
+   placename='Nepal-The Land Of Himalayas'
+   placedescription='Welcome to Nepal, a land of breathtaking mountains, rich culture, and warm hospitality. From the towering peaks of the Himalayas to the lush jungles of the Terai, Nepal offers experiences that stay in your heart forever.
+Whether you are trekking through remote villages, exploring UNESCO World Heritage sites in Kathmandu Valley, or seeking peace in the birthplace of Lord Buddha, Nepal has something for every traveler.Best Time to Visit Nepal
+	•	Spring (Mar–May): Perfect for trekking, rhododendrons in bloom, clear skies.
+	•	Autumn (Sep–Nov): Most popular season, ideal mountain views, cultural festivals like Dashain & Tihar.
+	•	Winter (Dec–Feb): Best for cultural tours, wildlife safaris, lower-altitude treks.
+	•	Summer/Monsoon (Jun–Aug): Lush greenery, fewer crowds, great for Upper Mustang & Dolpo treks.'
+   />
 
 {/* passing data using props in cards.jsx */}
       <Cards 
