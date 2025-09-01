@@ -5,6 +5,7 @@ import Button from '../../../components/Button'
 import Footer from '../../../components/Footer'
 import Livechattidio from '../../../components/Livechattidio'
 import Description from '../../../components/Description'
+import { Link } from 'react-router-dom'
 
 
 
@@ -39,11 +40,15 @@ Whether you are trekking through remote villages, exploring UNESCO World Heritag
        image='https://www.authenticindiatours.com/app/uploads/2022/06/Ancient-city-in-Kathmandu-Valley-Patan-Nepal.jpg'
        description='Annapurna, a massif in the Himalayas in north-central Nepal, . The region is also home to the Annapurna Sanctuary, a high-altitude basin surrounded by some of the highest peaks in the world, including Annapurna I, which stands at 8,091 meters (26,545 feet).'
        />
+       
+       <Link to='/Destinations/Nepal/Trekkinghandhiking'>
       <Cards 
       title='Trekking and Hiking'
       image='https://media.istockphoto.com/id/492231010/photo/group-of-3-trekkers-in-mount-everest-national-park-nepal.jpg?s=612x612&w=0&k=20&c=qziz0A7t6sULTnolfpOgziED_HUUWswe4EJM0xMD-qQ='
       description='Annapurna, a massif in the Himalayas in north-central Nepal, . The region is also home to the Annapurna Sanctuary, a high-altitude basin surrounded by some of the highest peaks in the world, including Annapurna I, which stands at 8,091 meters (26,545 feet).'
       />
+</Link>
+
       <Cards 
       title='Cultural Tour'
       image='https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/475523323_1187228253402347_2955125854583527778_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-NmN9L66NpMQ7kNvwEwwEPK&_nc_oc=AdntJMqaLqq8g-lUwvvh7PdoYYKbzsXVbJyx4IuMxDFJ88agSCpdWj62u6eZjvPhDhlDojIlAGsIrSTPy9IgIKQp&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=KhyIysHtpj86PmcfIZJafQ&oh=00_AfXVg-SkqLWeRAcmJ5AtVLQGWsuRyHq36_osiddH2Ahuhg&oe=68B8AF6F'

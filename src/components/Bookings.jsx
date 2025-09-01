@@ -10,8 +10,8 @@ const Bookings = () => {
     <Navbar/>
 
          
-    {/* Booking Form */}
-    <div className="max-w-xl p-6 bg-gray-50 rounded-lg shadow-md my-25 mx-25  text-black justify-center items-center">
+    {/* Booking Form */} 
+    <div className="max-w-xl p-6 bg-gray-50 rounded-lg shadow-md my-28 mx-25 text-black  items-center justify-center ">
    <h3 className="text-2xl font-medium text-black mb-5">Book Your Appointment</h3>
    <form action="https://usebasin.com/f/f6ad4d754f60" method="POST" className="space-y-4">
        <div>

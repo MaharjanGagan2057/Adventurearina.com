@@ -13,6 +13,7 @@ import China from './Pages/Destinations/China/China'
 import India from './Pages/Destinations/India/India'
 import Bookings from './components/Bookings'
 import Whyus from './Pages/Whyus'
+import { Trekkingandhiking } from './Pages/Destinations/Nepal/Trekkingandhiking/Trekkingandhiking'
 function App() {
   
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/Destinations/India" element={<India />} />
           <Route path="/bookings" element={<Bookings />} />
           <Route path="/whyus" element={<Whyus/>}/>
+          <Route path="/Destinations/Nepal/Trekkinghandhiking" element={<Trekkingandhiking/>} />
         </Routes>
       </BrowserRouter>
     </>
