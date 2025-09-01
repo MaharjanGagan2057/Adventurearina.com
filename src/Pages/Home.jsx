@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Livechattidio from '../components/Livechattidio'
 import Packagecard from '../components/Packagecard'
 import Button from '../components/Button'
+import Reviewcard from '../components/Reviewcard'
 
 const Home = () => {
 
@@ -86,7 +87,7 @@ price='250'
       </Link>
 
 
-    
+    <Reviewcard/>
 <Footer/>
     </>
   )
