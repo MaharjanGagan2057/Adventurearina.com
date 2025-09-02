@@ -40,7 +40,7 @@ const Home = () => {
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-3">
-            <button className="bg-blue-600 text-black px-6 py-3 rounded-md hover:bg-blue-700 transition">
+            <button className="bg-blue-600 text-black px-6 py-3 rounded-full hover:bg-blue-700 transition">
               Learn more
             </button>
 

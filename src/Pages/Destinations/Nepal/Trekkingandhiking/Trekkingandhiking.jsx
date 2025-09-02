@@ -32,6 +32,7 @@ export const Trekkingandhiking = () => {
           />
     <div>Trekkingandhiking</div>
 
+
     <Footer/>
     </>
   )
