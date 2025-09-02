@@ -7,7 +7,7 @@ const Packagecard = (props) => {
   
 <div className=' inline-block items-center justify-items-center '>
 
-<div className="w-80 h-[430px] bg-white border border-gray-200  shadow-sm dark:bg-gray-800 dark:border-gray-700 m-7 rounded-4xl hover:bg-gray-100 transition">
+<div className="w-80 h-[430px] bg-white border border-gray-200  shadow-sm dark:bg-gray-800 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 m-7 rounded-4xl hover:bg-gray-100 transition">
    {/* passing props on img */}
     <a href="#">
         <img className="p-8 rounded-3xl w-80 h-60 object-cover " src={props.image}alt="product image" />
