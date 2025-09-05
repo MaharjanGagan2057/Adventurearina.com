@@ -3,9 +3,9 @@ import React from 'react'
 const Reviewcard = () => {
   return (
 <>
-<section className="bg-white px-4 py-12 md:py-24">
+<section className="bg-white px-4 py-12 md:py-24 dark:bg-gray-900 ">
   <div className="max-w-screen-xl mx-auto">
-    <h2 className="font-black text-black text-center text-3xl leading-none uppercase max-w-2xl mx-auto mb-12"> Our Clients Review</h2>
+    <h2 className="font-black text-black text-center text-3xl leading-none uppercase max-w-2xl mx-auto mb-12 dark:text-white"> Our Clients Review</h2>
     <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">
       <div className="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
         <p className="font-bold uppercase">John Doe</p>
@@ -39,7 +39,7 @@ const Reviewcard = () => {
         </div>
       </div>
       <div className="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
-        <p className="font-bold uppercase">Jane Smith</p>
+        <p className="font-bold uppercase dark:text-gray-700">Jane Smith</p>
         <p className="text-xl font-light italic text-gray-700">This podcast kept me on the edge of my seat. It's a
           must-listen for true crime enthusiasts!</p>
         <div className="flex items-center justify-center space-x-2 mt-4">

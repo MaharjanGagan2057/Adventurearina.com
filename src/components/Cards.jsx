@@ -5,7 +5,7 @@ import Button from './Button'
 const Cards = (props) => {
   return (
     < >
-    <div className=" inline-block justify-items-center m-3 mt-10 mb-20"><br />
+    <div className=" inline-block justify-items-center m-auto ml-6 mt-10 mb-20"><br />
       <div className="w-80 h-[430px] bg-white border border-gray-200 rounded-3xl shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4 ">
         {/* passing img using props */}
         <a href="#">
