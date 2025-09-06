@@ -36,8 +36,8 @@ export const Trekkingandhiking = () => {
            image='https://himalayaguidenepal.com/wp-content/uploads/2024/01/Where-is-Mount-Everest-Located.jpg'
        description='Annapurna, a massif in the Himalayas in north-central Nepal, . The region is also home to the Annapurna Sanctuary, a high-altitude basin surrounded by some of the highest peaks in the world, including Annapurna I, which stands at 8,091 meters (26,545 feet).'
           />  <Cards
-           title=' City Tour '
-           image='https://www.authenticindiatours.com/app/uploads/2022/06/Ancient-city-in-Kathmandu-Valley-Patan-Nepal.jpg'
+           title=' Evrest Heli Trek '
+           image='https://www.nepalhorizontreks.com/uploads/everest-base-camp-helicopter-tour.jpg'
        description='Annapurna, a massif in the Himalayas in north-central Nepal, . The region is also home to the Annapurna Sanctuary, a high-altitude basin surrounded by some of the highest peaks in the world, including Annapurna I, which stands at 8,091 meters (26,545 feet).'
           />  <Cards
            title=' City Tour '
