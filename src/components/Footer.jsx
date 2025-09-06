@@ -32,20 +32,21 @@ const Footer = () => {
             </div>
 
             <LinkGroup header="Adventure Arina">
-              <NavLink link="/#" label="SaaS Development" />
-              <NavLink link="/#" label="Our Products" />
+              <NavLink link="/#" label="About Us" />
+              <NavLink link="/#" label="Values" />
               <NavLink link="/#" label="User Flow" />
               <NavLink link="/#" label="User Strategy" />
+               <NavLink link="/#" label="Terms & Conditions" />
             </LinkGroup>
             <LinkGroup header="Support">
-              <NavLink link="/#" label="About Adventure Arina" />
-              <NavLink link="/#" label="Contact & Support" />
-              <NavLink link="/#" label="Success History" />
-              <NavLink link="/#" label="Setting & Privacy" />
+              <NavLink link="/contact" label="Contact Us" />
+              <NavLink link="/#" label="FAQs" />
+              <NavLink link="/#" label="Pre Departure Info" />
+                <NavLink link="/#" label="Safety Updates" />
             </LinkGroup>
             <LinkGroup header="Community">
-              <NavLink link="/#" label="Premium Support" />
-              <NavLink link="/#" label="Our Services" />
+              <NavLink link="/#" label="Blog" />
+              <NavLink link="/#" label="Newsletter" />
               <NavLink link="/Teams" label="Know Our Team" />
               <NavLink link="/#" label="Download App" />
             </LinkGroup>
