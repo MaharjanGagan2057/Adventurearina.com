@@ -11,7 +11,7 @@ const Bookings = () => {
 
          
     {/* Booking Form */} 
-    <div className="max-w-xl p-6 my-35  bg-gray-50 rounded-lg shadow-md   text-black  h-165 w-120 ml-130 ">
+    <div className="max-w-xl p-6 my-35  bg-gray-50 rounded-lg shadow-md   text-black  h-165 w-120  ">
    <h3 className="text-2xl font-medium text-black mb-5">Book Your Appointment</h3>
    <form action="https://usebasin.com/f/f6ad4d754f60" method="POST" className="space-y-4">
        <div>
