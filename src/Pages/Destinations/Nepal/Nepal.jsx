@@ -13,8 +13,8 @@ import { Link } from 'react-router-dom'
 const Nepal = () => {
   return (
     <>
-      <Navbar />
       <Livechattidio/>
+      <Navbar />
        
 
       <h2 className="mt-26 mb-5 text-6xl text-center ">NEPAL</h2>

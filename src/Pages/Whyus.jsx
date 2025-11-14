@@ -6,7 +6,7 @@ const Whyus = () => {
   return (
     <>
  <Navbar/>
-<section className="my-28 mx-auto m-w-full  items-center px-2 dark:text-white dark:bg-slate-800">
+<section className="my-40 m-w-full  items-center px-2 dark:text-white pl-40">
     <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl dark:text-white  ">
         Why Choose Our Platform?
     </h2>

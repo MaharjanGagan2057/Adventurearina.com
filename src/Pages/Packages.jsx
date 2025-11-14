@@ -48,6 +48,8 @@ const Packages = (props) => {
     price="200-1000"/>
     </Link>
 
+    <Footer/>
+
  </>
   )
 }

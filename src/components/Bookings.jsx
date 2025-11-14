@@ -11,7 +11,7 @@ const Bookings = () => {
 
          
     {/* Booking Form */} 
-    <div className="max-w-xl p-6 bg-gray-50 rounded-lg shadow-md my-28 mx-25 text-black  items-center justify-center ">
+    <div className="max-w-xl p-6 my-35  bg-gray-50 rounded-lg shadow-md   text-black  h-165 w-120 ml-130 ">
    <h3 className="text-2xl font-medium text-black mb-5">Book Your Appointment</h3>
    <form action="https://usebasin.com/f/f6ad4d754f60" method="POST" className="space-y-4">
        <div>
@@ -24,7 +24,7 @@ const Bookings = () => {
        </div>
        <div>
            <label for="appointment-phone" className="block text-sm font-medium text-gray-700">Phone Number</label>
-           <input type="tel" name="appointment-phone" id="appointment-phone" autocomplete="tel"  required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="(123) 456-7890"/>
+           <input type="tel" name="appointment-phone" id="appointment-phone" autocomplete="tel"  required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"  placeholder="(123) 456-7890"/>
        </div>
        <div>
             <label for="appointment-service" className="block text-sm font-medium text-gray-700">Travel Destination</label>
