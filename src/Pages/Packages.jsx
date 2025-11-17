@@ -11,7 +11,8 @@ const Packages = (props) => {
     <>
     <Navbar/>
     <h1 className='mt-25 text-3xl text-center'>PACKAGES</h1>
-<div className='m-0.5'>
+
+<div className='m-0.5 gap-1'>
 
 <Link to='/Destinations/Nepal'>
     <Packagecard
@@ -20,6 +21,7 @@ const Packages = (props) => {
     image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ef/5c/54/durbar-square-bhaktapur.jpg?w=900&h=-1&s=1"
     price="200-9000"/>
     </Link>
+    
 
 
 <Link to ='/Destinations/India'>

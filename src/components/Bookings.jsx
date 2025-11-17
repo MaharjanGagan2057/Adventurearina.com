@@ -13,7 +13,7 @@ const Bookings = () => {
     {/* Booking Form */}
     <div className="w-screen  flex justify-center ">
         
-    <div className="max-w-xl p-6 my-35  bg-gray-50 rounded-lg shadow-md   text-black  h-165 w-120 ">
+    <div className="max-w-xl p-6 my-35  bg-gray-50 rounded-lg shadow-md   text-black  h-170 w-120 ">
    <h3 className="text-2xl font-medium text-black mb-5">Book Your Appointment</h3>
    <form action="https://usebasin.com/f/f6ad4d754f60" method="POST" className="space-y-4">
        <div>
@@ -50,7 +50,7 @@ const Bookings = () => {
            <textarea id="appointment-notes" name="appointment-notes" rows="3" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm" placeholder="Any specific requests or information?"></textarea>
        </div>
        <div>
-           <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-purple-600 bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ">
+           <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-purple-600 bg-blue-400 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 ">
                Request Booking
            </button>
        </div>
