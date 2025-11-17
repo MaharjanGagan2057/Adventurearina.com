@@ -5,7 +5,7 @@ const Packagecard = (props) => {
   return (
     <>
   
-<div className=' display-flex  flex-wrap inline-flex p-1.5px '>
+<div className=' display-flex  flex-wrap inline-flex m-0'>
 
 <div className="w-80 h-[430px] bg-white border border-gray-200  shadow-sm dark:bg-gray-800 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 m-7 rounded-4xl hover:bg-gray-100 transition">
    {/* passing props on img */}

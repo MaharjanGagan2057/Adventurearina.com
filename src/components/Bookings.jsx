@@ -10,8 +10,10 @@ const Bookings = () => {
     <Navbar/>
 
          
-    {/* Booking Form */} 
-    <div className="max-w-xl p-6 my-35  bg-gray-50 rounded-lg shadow-md   text-black  h-165 w-120  ">
+    {/* Booking Form */}
+    <div className="w-screen  flex justify-center ">
+        
+    <div className="max-w-xl p-6 my-35  bg-gray-50 rounded-lg shadow-md   text-black  h-165 w-120 ">
    <h3 className="text-2xl font-medium text-black mb-5">Book Your Appointment</h3>
    <form action="https://usebasin.com/f/f6ad4d754f60" method="POST" className="space-y-4">
        <div>
@@ -54,6 +56,8 @@ const Bookings = () => {
        </div>
    </form>
 </div>
+        </div> 
+
       
    <Footer/>
     </>

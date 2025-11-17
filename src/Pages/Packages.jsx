@@ -11,6 +11,7 @@ const Packages = (props) => {
     <>
     <Navbar/>
     <h1 className='mt-25 text-3xl text-center'>PACKAGES</h1>
+<div className='m-0.5'>
 
 <Link to='/Destinations/Nepal'>
     <Packagecard
@@ -48,6 +49,7 @@ const Packages = (props) => {
     price="200-1000"/>
     </Link>
 
+    </div>
     <Footer/>
 
  </>
