@@ -8,7 +8,7 @@ const Reviewcard = () => {
     <h2 className="font-black text-black text-center text-3xl leading-none uppercase max-w-2xl mx-auto mb-12 dark:text-white"> Our Clients Review</h2>
     <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">
       <div className="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
-        <p className="font-bold uppercase">John Doe</p>
+        <p className="font-bold uppercase dark:text-gray-700">John Doe</p>
         <p className="text-xl font-light italic text-gray-700">This podcast is amazing! The storytelling and production
           quality are top-notch. I can't wait for the next episode!</p>
         <div className="flex items-center justify-center space-x-2 mt-4">
@@ -64,7 +64,7 @@ const Reviewcard = () => {
         </div>
       </div>
       <div className="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
-        <p className="font-bold uppercase">Emily Johnson</p>
+        <p className="font-bold uppercase dark:text-gray-700">Emily Johnson</p>
         <p className="text-xl font-light italic text-gray-700">I can't get enough of this podcast! The host's voice is so
           soothing, and the stories are gripping. Highly recommend!</p>
         <div className="flex items-center justify-center space-x-2 mt-4">
