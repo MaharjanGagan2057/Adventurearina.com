@@ -25,7 +25,7 @@ const Description = (props) => {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="w-full h-150  rounded-2xl overflow-hidden relative object-cover">
+      <div className="w-300 h-150  rounded-2xl overflow-hidden relative object-cover">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           ref={sliderRef}

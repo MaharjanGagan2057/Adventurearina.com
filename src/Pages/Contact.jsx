@@ -112,6 +112,8 @@ const Contact = () => {
     </div>
 </section>
 
+<Whatsappbutton/>
+
 </>
   
   )

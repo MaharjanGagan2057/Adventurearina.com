@@ -17,13 +17,13 @@ const Nepal = () => {
       <Navbar />
        
 
-      <h2 className="mt-26 mb-5 text-6xl text-center ">NEPAL</h2>
+      <h2 className="mt-30 mb-5 text-6xl text-center ">NEPAL</h2>
 {/* passing img and discription using props in nepal page */}
    <Description
    image1='https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/03/28122812/EBC-trek-feature-image-1600x900.jpg'
    image2='https://superdesk-pro-c.s3.amazonaws.com/sd-nepalitimes/20221108141116/636a57119c7e80680e0547bejpeg.jpg'
    image3='https://res.cloudinary.com/rehash-studio/image/upload/fl_progressive:semi,f_jpg,q_60,c_fill,g_auto:subject,ar_4:3/if_w_gt_1200,w_1200/v1738231942/upload/3d9e894f-2aae-4883-9f38-d4c48821dff4.jpg'
-   image4='https://t4.ftcdn.net/jpg/03/10/24/63/360_F_310246341_869grfwR1b87MN3qyFPe6yZZIRC83X31.jpg'
+   image4='https://cosatravel.ch/wp-content/uploads/2023/12/nepal-kathmandu-valley-boudhanath-stupa-1440x958.jpg'
    image5='https://superdesk-pro-c.s3.amazonaws.com/sd-nepalitimes/20221110141132/636cfde49c7e80680e0a0c0djpeg.jpg'
    placename='Nepal-The Land Of Himalayas'
    placedescription='Welcome to Nepal, a land of breathtaking mountains, rich culture, and warm hospitality. From the towering peaks of the Himalayas to the lush jungles of the Terai, Nepal offers experiences that stay in your heart forever.
