@@ -8,12 +8,13 @@ import Livechattidio from '../components/Livechattidio'
 import Packagecard from '../components/Packagecard'
 import Button from '../components/Button'
 import Reviewcard from '../components/Reviewcard'
+import Aoseffect from '../components/Aoseffect'
 
 const Home = () => {
 
   return (
     <>
-  
+<Aoseffect/>
       <Navbar />
      {/* tidio live chat */}
      <Livechattidio/>
@@ -54,8 +55,12 @@ const Home = () => {
         </div>
         </section>
 
+        <div className=" w-screen h-auto flex flex-col sm:flex-col   md:flex-row  lg:flex-row justify-center items-center  ">
+
+
         {/* linking nepal package to nepal page */}
-        <Link to='/Destinations/Nepal'>
+        <Link to='/Destinations/Nepal'data-aos="fade-up"
+     data-aos-duration="3000">
         {/* passing prorps to packagecard */}
 <Packagecard
 title='Nepal Tour'
@@ -86,7 +91,7 @@ price='250'
       />
       </Link>
 
-
+</div>
     <Reviewcard/>
 <Footer/>
     </>

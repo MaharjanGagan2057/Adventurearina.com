@@ -3,7 +3,7 @@ import React from 'react'
 const Reviewcard = () => {
   return (
 <>
-<section className="bg-white px-4 py-12 md:py-24 dark:bg-gray-900 ">
+<section className="bg-white px-4 py-12 md:py-24 dark:bg-gray-900  ">
   <div className="max-w-screen-xl mx-auto">
     <h2 className="font-black text-black text-center text-3xl leading-none uppercase max-w-2xl mx-auto mb-12 dark:text-white"> Our Clients Review</h2>
     <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">
