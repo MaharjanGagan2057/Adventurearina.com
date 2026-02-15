@@ -69,21 +69,21 @@ price='250'
 />
 </Link>
 
-<Link to='/Destinations/China'>
+<Link to='/Destinations/China'data-aos="fade-up" data-aos-duration="3000">
       <Packagecard
       title='Tibet Tour'
       image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
       price='499'/>
       </Link>
 
-<Link to='/Destinations/Bhutan'>
+<Link to='/Destinations/Bhutan'data-aos="fade-up" data-aos-duration="3000">
       <Packagecard
       title='Bhutan Tour'
       image='https://tse4.mm.bing.net/th/id/OIP.W5xvAZUdZC8mrx6msPDzIQHaEK?r=0&w=700&h=393&rs=1&pid=ImgDetMain&o=7&rm=3'
       price='788'/>
 </Link>
 
-<Link to='/Destinations/India'>
+<Link to='/Destinations/India'data-aos="fade-up"data-aos-duration="3000">
          <Packagecard
       title='India Tour'
       image='https://tse1.mm.bing.net/th/id/OIP.1xzhNthh2cGSmdZrqGy7PAHaE8?pid=Api&P=0&h=220'
