@@ -9,6 +9,7 @@ import Packagecard from '../components/Packagecard'
 import Button from '../components/Button'
 import Reviewcard from '../components/Reviewcard'
 import Aoseffect from '../components/Aoseffect'
+import Whatsapp from '../components/Whatsapp'
 
 const Home = () => {
 
@@ -23,13 +24,15 @@ const Home = () => {
 
      <section
         id="home"
-        className="grid place-items-center w-screen h-150 text-center bg-black/20 bg-blend-overlay bg-cover bg-center pt-[125px]"
+        className="grid place-items-center w-screen h-150 text-center bg-black/20 bg-blend-overlay bg-cover bg-center pt-[125px] "
         
         style={{
           backgroundImage:
             "url('https://trekroute.com/wp-content/uploads/2015/01/Prayer-Flags-in-nepal-1024x683.jpg')"
         }}
       >
+
+        <Whatsapp/>
         <div className="max-w-4xl mx-auto px-4">
 
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-5">
@@ -55,12 +58,12 @@ const Home = () => {
         </div>
         </section>
 
-        <div className=" w-screen h-auto flex flex-col sm:flex-col   md:flex-row  lg:flex-row justify-center items-center  ">
+        <div className=" w-screen h-auto flex  sm:flex-col md:flex-row lg:flex-row  lg:grid-cols-2 justify-center items-center  ">
 
 
         {/* linking nepal package to nepal page */}
         <Link to='/Destinations/Nepal'data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="2000">
         {/* passing prorps to packagecard */}
 <Packagecard
 title='Nepal Tour'
@@ -69,21 +72,21 @@ price='250'
 />
 </Link>
 
-<Link to='/Destinations/China'data-aos="fade-up" data-aos-duration="3000">
+<Link to='/Destinations/China'data-aos="fade-up" data-aos-duration="2000">
       <Packagecard
       title='Tibet Tour'
       image='https://www.tibetfocus.travel/wp-content/uploads/2017/01/7days-Lhasa-and-beyong-tour.jpg'
       price='499'/>
       </Link>
 
-<Link to='/Destinations/Bhutan'data-aos="fade-up" data-aos-duration="3000">
+<Link to='/Destinations/Bhutan'data-aos="fade-up" data-aos-duration="2000">
       <Packagecard
       title='Bhutan Tour'
       image='https://tse4.mm.bing.net/th/id/OIP.W5xvAZUdZC8mrx6msPDzIQHaEK?r=0&w=700&h=393&rs=1&pid=ImgDetMain&o=7&rm=3'
       price='788'/>
 </Link>
 
-<Link to='/Destinations/India'data-aos="fade-up"data-aos-duration="3000">
+<Link to='/Destinations/India'data-aos="fade-up"data-aos-duration="2000">
          <Packagecard
       title='India Tour'
       image='https://tse1.mm.bing.net/th/id/OIP.1xzhNthh2cGSmdZrqGy7PAHaE8?pid=Api&P=0&h=220'
