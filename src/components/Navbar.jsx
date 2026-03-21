@@ -82,10 +82,10 @@ const Navbar = () => {
 
               <select
                 onChange={handleDestinationChange}
-                className="block w-full px-4 py-2 border dark:text-white dark:bg-gray-900 border-gray-300  rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500   text-black  hover:visible "
+                className="block w-full px-4 py-2  dark:text-white dark:bg-gray-900  rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500   text-black  hover:visible "
                 defaultValue=""
                 >
-               <option value="" disabled >Destinations</option>
+               <option value="" disabled hidden >Destinations</option>
                 <option value="/Destinations/Nepal">NEPAL</option>
                 <option value="/Destinations/India">INDIA</option>
                 <option value="/Destinations/Bhutan">BHUTAN</option>

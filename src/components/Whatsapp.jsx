@@ -44,7 +44,7 @@ const Whatsapp = () => {
     className="absolute right-full mr-3 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300 whitespace-nowrap"
   >
     <div className="bg-gray-800 text-white text-sm px-3 py-1 rounded shadow-lg">
-      Do you need help?
+      Connect on Whatsapp?
     </div>
     <div
       className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-gray-800"

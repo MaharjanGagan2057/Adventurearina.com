@@ -11,6 +11,7 @@ import Reviewcard from '../components/Reviewcard'
 import Aoseffect from '../components/Aoseffect'
 import Whatsapp from '../components/Whatsapp'
 
+
 const Home = () => {
 
   return (
@@ -94,7 +95,10 @@ price='250'
       />
       </Link>
 
+
 </div>
+
+
     <Reviewcard/>
 <Footer/>
     </>
