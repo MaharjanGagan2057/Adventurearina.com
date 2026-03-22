@@ -34,7 +34,7 @@ const Footer = () => {
 
             <LinkGroup header="Adventure Arina">
             <Link to="/about" label="About Us"  />
-             
+              <NavLink link="/about" label="About Us"  />
               <NavLink link="/#" label="Values" />
               <NavLink link="/#" label="User Flow" />
               <NavLink link="/#" label="User Strategy" />
