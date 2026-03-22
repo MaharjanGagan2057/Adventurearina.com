@@ -1,7 +1,7 @@
 import React from 'react'
 import logo3 from '../assets/logo3.jpg'
 import logofinal from '../assets/logofinal.png'
-import Adventurearina from '../assets/Adventurearina.svg'
+
 
 import { Link, useNavigate } from 'react-router-dom'
 
