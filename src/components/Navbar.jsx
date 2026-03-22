@@ -1,6 +1,7 @@
 import React from 'react'
 import logo3 from '../assets/logo3.jpg'
 import logofinal from '../assets/logofinal.png'
+import Adventurearina from '../assets/Adventurearina.svg'
 
 import { Link, useNavigate } from 'react-router-dom'
 
@@ -20,6 +21,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-full p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logofinal} className="h-20 rounded-2xl" alt="Adventure Arina Logo" />
+          <img src="/adventurearina.svg" alt="" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-purple-800">Adventure Arina</span>
         </Link>
         <div className="flex md:order-2">
@@ -82,10 +84,10 @@ const Navbar = () => {
 
               <select
                 onChange={handleDestinationChange}
-                className="block w-full px-4 py-2  dark:text-white dark:bg-gray-900  rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500   text-black  hover:visible "
+                className="block w-full px-4 py-2  dark:text-white dark:bg-gray-900  rounded-md shadow-sm focus:outline-none   text-black  "
                 defaultValue=""
                 >
-               <option value="" disabled hidden >Destinations</option>
+               <option value="" disabled hidden > Destinations  </option>
                 <option value="/Destinations/Nepal">NEPAL</option>
                 <option value="/Destinations/India">INDIA</option>
                 <option value="/Destinations/Bhutan">BHUTAN</option>

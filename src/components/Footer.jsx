@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
   
-      <footer className="relative z-10 pb-2 pt-4 dark:bg-dark lg:pb-4 lg:pt-6 ">
+      <footer className="relative z-10 pb-2 pt-4 dark:bg-dark lg:pb-4 lg:pt-6 text-purple-500">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
 
             <LinkGroup header="Adventure Arina">
-              <NavLink link="/about" label="About Us" />
+              <NavLink link="/about" label="About Us"  />
               <NavLink link="/#" label="Values" />
               <NavLink link="/#" label="User Flow" />
               <NavLink link="/#" label="User Strategy" />
@@ -44,8 +44,8 @@ const Footer = () => {
               <NavLink link="/#" label="Pre Departure Info" />
                 <NavLink link="/#" label="Safety Updates" />
             </LinkGroup>
-            <LinkGroup header="Community">
-              <NavLink link="/#" label="Blog" />
+            <LinkGroup header="Community" >
+              <NavLink link="/#" label="Blog"  />
               <NavLink link="/#" label="Newsletter" />
               <NavLink link="/Teams" label="Know Our Team" />
               <NavLink link="/#" label="Download App" />
@@ -55,9 +55,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
               <div className="mb-5 w-full">
             
-                <div className="mb-3 flex items-center">
-                  {/* ...social icons... */}
-                </div>
+                
                 <p className="text-sm text-body-color dark:text-dark-6">
                   &copy; 2025 Adventurearina
                 </p>
@@ -91,7 +89,7 @@ const NavLink = ({ link, label }) => {
     <li>
       <a
         href={link}
-        className="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+        className="inline-block text-base leading-loose !text-gray-500 !font-light hover:text-primary dark:text-dark-6"
       >
         {label}
       </a>

@@ -30,7 +30,7 @@ const Aboutus = () => {
                     <br />
                 </p>
         <span className='text-xl font-[great_vibes] text-purple-500 font-bold '>------ Founder & Director ------ </span>  <br /> <br />
-                <p class="md:text-xl sm:text-lg text-base mt-2  sm:px-2 dark:text-gray-300 text-gray-300-500 text-center"> 
+                <p class="md:text-xl sm:text-lg text-base mt-2  sm:px-2 dark:text-gray-300 text-gray-300-500 text-center font-light "> 
 
 Adventure Arina was created in loving memory of my mother. With years of experience leading treks across Nepal, I founded this company to share the beauty of the Himalayas and create unforgettable journeys. <br /> <br />
 My goal is to make every adventure personal and meaningful. <br /> <br />

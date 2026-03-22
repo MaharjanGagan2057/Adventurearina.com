@@ -59,7 +59,7 @@ const Home = () => {
         </div>
         </section>
 
-        <div className=" w-screen h-auto flex  sm:flex-col md:flex-row lg:flex-row  lg:grid-cols-2 justify-center items-center  ">
+        <div className=" w-screen h-auto  sm:flex-col md:flex-row lg:flex-row  lg:flex-4 p-10 justify-center items-center  ">
 
 
         {/* linking nepal package to nepal page */}

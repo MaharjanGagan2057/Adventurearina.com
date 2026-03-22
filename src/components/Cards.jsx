@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from './Button'
+import Explorebutton from './Explorebutton'
 
 const Cards = (props) => {
   return (
     < >
-    <div className=" inline-block justify-items-center m-auto ml-6 mt-10 "><br />
-      <div className="w-80 h-[430px] bg-white border border-gray-200 rounded-3xl shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4 ">
+    <div className=" inline-block justify-items-center m-auto ml-6 mt-10  "><br />
+      <div className="w-80 h-[430px] bg-white hover:bg-gray-300 border border-gray-200 rounded-3xl shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4 ">
         {/* passing img using props */}
         <a href="#">
           <img
@@ -28,7 +29,8 @@ const Cards = (props) => {
           </p>
             {/* Book Now button */}
            <Link to="/bookings"> 
-            <Button/>
+           <Explorebutton/>
+           
             </Link>
          
         </div>
