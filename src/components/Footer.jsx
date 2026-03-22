@@ -1,5 +1,6 @@
 import React from "react";
 import logo3 from "../assets/logo3.jpg";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -32,7 +33,8 @@ const Footer = () => {
             </div>
 
             <LinkGroup header="Adventure Arina">
-              <NavLink link="/about" label="About Us"  />
+            <Link to="/about" label="About Us"  />
+             
               <NavLink link="/#" label="Values" />
               <NavLink link="/#" label="User Flow" />
               <NavLink link="/#" label="User Strategy" />
